@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="120" viewBox="0 -25 215 120">
+  <!-- Livros -->
+  <g fill="none" stroke="#1e3a8a" stroke-width="2">
+    <rect x="10" y="30" width="30" height="40" rx="3" fill="#e0f2fe"/>
+    <rect x="40" y="30" width="30" height="40" rx="3" fill="#e0f2fe"/>
+    <line x1="40" y1="30" x2="40" y2="70"/>
+    <rect x="10" y="70" width="60" height="5" rx="2" fill="#1e3a8a"/>
+  </g>
+
+  <!-- Lâmpada -->
+  <g fill="#1e3a8a">
+    <!-- Bulbo -->
+    <ellipse cx="40" cy="20" rx="8" ry="12" fill="#fff" stroke="#1e3a8a" stroke-width="2"/>
+    <!-- Fio/Base -->
+    <rect x="35" y="28" width="10" height="5" rx="2" fill="#1e3a8a"/>
+  </g>
+
+  <!-- Luz acesa -->
+  <g>
+    <!-- Halo difuso -->
+    <ellipse cx="40" cy="10" rx="18" ry="18" fill="#FBBF24" fill-opacity="0.3"/>
+    <ellipse cx="40" cy="10" rx="12" ry="12" fill="#FBBF24" fill-opacity="0.5"/>
+    <!-- Raios de luz -->
+    <line x1="40" y1="-5" x2="40" y2="-15" stroke="#FBBF24" stroke-width="2"/>
+    <line x1="25" y1="10" x2="15" y2="10" stroke="#FBBF24" stroke-width="2"/>
+    <line x1="55" y1="10" x2="65" y2="10" stroke="#FBBF24" stroke-width="2"/>
+    <line x1="30" y1="-5" x2="20" y2="-15" stroke="#FBBF24" stroke-width="2"/>
+    <line x1="50" y1="-5" x2="60" y2="-15" stroke="#FBBF24" stroke-width="2"/>
+  </g>
+
+  <!-- Texto -->
+  <text x="80" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000" letter-spacing="0.5">
+    Hub de
+  </text>
+  <text x="80" y="70" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e3a8a" letter-spacing="0.5">
+    Conhecimento
+  </text>
+</svg>
