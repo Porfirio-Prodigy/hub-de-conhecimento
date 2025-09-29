@@ -24,18 +24,8 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/sobre" className="hover:text-white transition">
+              <Link href="/sobre-nos" className="hover:text-white transition">
                 Sobre Nós
-              </Link>
-            </li>
-            <li>
-              <Link href="/categorias" className="hover:text-white transition">
-                Categorias
-              </Link>
-            </li>
-            <li>
-              <Link href="/contato" className="hover:text-white transition">
-                Contato
               </Link>
             </li>
           </ul>
