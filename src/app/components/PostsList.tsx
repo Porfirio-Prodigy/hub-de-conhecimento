@@ -79,13 +79,14 @@ const PostItem = ({ post, blogLink }: { post: Post; blogLink: string }) => {
             transition-[background-size] duration-500
             group-hover:bg-[length:100%_2px]
             inline
+            post-title
           "
         >
           {post.title.rendered}
         </span>
       </a>
 
-      <p
+      <div
         className="text-sm text-gray-600 mt-1 post-text-excerpt"
         dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
       />

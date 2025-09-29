@@ -1,13 +1,23 @@
 @import "tailwindcss";
+@import "tailwindcss/utilities";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.post-title {
+  min-height: 72px;
+}
+
 .post-text-excerpt p {
-    display: -webkit-box;
-    --webkit-line-clamp: 3;
-    --webkit-box-orient: vertical;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

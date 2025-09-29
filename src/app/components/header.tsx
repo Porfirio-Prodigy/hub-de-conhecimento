@@ -83,7 +83,7 @@ export default function Header() {
           <ul className="flex flex-col p-4 gap-4 text-[#1E3A8A] font-medium">
             <li>
               <Link
-                href="/sobre"
+                href="/sobre-nos"
                 className="hover:text-[#3B82F6] transition-colors"
                 onClick={() => setOpen(false)}
               >
