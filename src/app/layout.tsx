@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     description: "Conteúdo didático e organizado sobre programação, finanças, economia e idiomas, otimizado para aprendizado rápido e inteligência artificial.",
     images: ["/logo.svg"],
   },
-  metadataBase: new URL("https://www.hubdeconhecimento.com"),
+  metadataBase: new URL("https://hub-de-conhecimento.vercel.app/"),
 };
 
 export default function RootLayout({
@@ -69,6 +69,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="3ZL2UH9Ereq6Qbpt5EytLuhf3COI7LhawE5cF0SVIUU"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
